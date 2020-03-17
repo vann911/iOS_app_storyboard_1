@@ -37,6 +37,27 @@
 /* End PBXFrameworksBuildPhase section */
 
 /* Begin PBXGroup section */
+		440A62022420D556006C74E1 /* Controller */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Controller;
+			sourceTree = "<group>";
+		};
+		440A62032420D55F006C74E1 /* Model */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = Model;
+			sourceTree = "<group>";
+		};
+		440A62042420D565006C74E1 /* View */ = {
+			isa = PBXGroup;
+			children = (
+			);
+			path = View;
+			sourceTree = "<group>";
+		};
 		8F6456432420AA3B00FBB608 = {
 			isa = PBXGroup;
 			children = (
@@ -56,6 +77,9 @@
 		8F64564E2420AA3B00FBB608 /* iOS_app_storyboard */ = {
 			isa = PBXGroup;
 			children = (
+				440A62042420D565006C74E1 /* View */,
+				440A62032420D55F006C74E1 /* Model */,
+				440A62022420D556006C74E1 /* Controller */,
 				8F64564F2420AA3B00FBB608 /* AppDelegate.swift */,
 				8F6456512420AA3B00FBB608 /* SceneDelegate.swift */,
 				8F6456532420AA3B00FBB608 /* ViewController.swift */,
