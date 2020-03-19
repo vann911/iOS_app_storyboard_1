@@ -448,7 +448,6 @@
                     </view>
                     <connections>
                         <outlet property="MoveAreaView" destination="jKy-Jk-6TE" id="b2h-PD-RAU"/>
-                        <outlet property="SmileyObject" destination="1DV-ps-2Ck" id="w6E-s8-eIV"/>
                     </connections>
                 </viewController>
                 <placeholder placeholderIdentifier="IBFirstResponder" id="cht-ms-Yeo" userLabel="First Responder" customClass="UIResponder" sceneMemberID="firstResponder"/>
