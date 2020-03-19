@@ -7,19 +7,29 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		440A62062420DA3A006C74E1 /* MenuViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A62052420DA3A006C74E1 /* MenuViewController.swift */; };
+		440A620A2420E9D9006C74E1 /* HomeViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 440A62092420E9D9006C74E1 /* HomeViewController.swift */; };
+		44FB6AFE2421C12D0003241D /* SlideInTransition.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB6AFD2421C12D0003241D /* SlideInTransition.swift */; };
+		44FB6B002421FB030003241D /* MoveObjectViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB6AFF2421FB030003241D /* MoveObjectViewController.swift */; };
+		44FB6B02242202DD0003241D /* RandomViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB6B01242202DD0003241D /* RandomViewController.swift */; };
+		44FB6B04242202EF0003241D /* GestureViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 44FB6B03242202EF0003241D /* GestureViewController.swift */; };
 		8F6456502420AA3B00FBB608 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F64564F2420AA3B00FBB608 /* AppDelegate.swift */; };
 		8F6456522420AA3B00FBB608 /* SceneDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6456512420AA3B00FBB608 /* SceneDelegate.swift */; };
-		8F6456542420AA3B00FBB608 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8F6456532420AA3B00FBB608 /* ViewController.swift */; };
 		8F6456572420AA3B00FBB608 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F6456552420AA3B00FBB608 /* Main.storyboard */; };
 		8F6456592420AA3C00FBB608 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8F6456582420AA3C00FBB608 /* Assets.xcassets */; };
 		8F64565C2420AA3C00FBB608 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8F64565A2420AA3C00FBB608 /* LaunchScreen.storyboard */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		440A62052420DA3A006C74E1 /* MenuViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MenuViewController.swift; sourceTree = "<group>"; };
+		440A62092420E9D9006C74E1 /* HomeViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = HomeViewController.swift; sourceTree = "<group>"; };
+		44FB6AFD2421C12D0003241D /* SlideInTransition.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SlideInTransition.swift; sourceTree = "<group>"; };
+		44FB6AFF2421FB030003241D /* MoveObjectViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MoveObjectViewController.swift; sourceTree = "<group>"; };
+		44FB6B01242202DD0003241D /* RandomViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = RandomViewController.swift; sourceTree = "<group>"; };
+		44FB6B03242202EF0003241D /* GestureViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GestureViewController.swift; sourceTree = "<group>"; };
 		8F64564C2420AA3B00FBB608 /* iOS_app_storyboard.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = iOS_app_storyboard.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		8F64564F2420AA3B00FBB608 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		8F6456512420AA3B00FBB608 /* SceneDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = SceneDelegate.swift; sourceTree = "<group>"; };
-		8F6456532420AA3B00FBB608 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
 		8F6456562420AA3B00FBB608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
 		8F6456582420AA3C00FBB608 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8F64565B2420AA3C00FBB608 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
@@ -40,6 +50,12 @@
 		440A62022420D556006C74E1 /* Controller */ = {
 			isa = PBXGroup;
 			children = (
+				440A62052420DA3A006C74E1 /* MenuViewController.swift */,
+				440A62092420E9D9006C74E1 /* HomeViewController.swift */,
+				44FB6AFD2421C12D0003241D /* SlideInTransition.swift */,
+				44FB6AFF2421FB030003241D /* MoveObjectViewController.swift */,
+				44FB6B01242202DD0003241D /* RandomViewController.swift */,
+				44FB6B03242202EF0003241D /* GestureViewController.swift */,
 			);
 			path = Controller;
 			sourceTree = "<group>";
@@ -54,6 +70,7 @@
 		440A62042420D565006C74E1 /* View */ = {
 			isa = PBXGroup;
 			children = (
+				8F6456552420AA3B00FBB608 /* Main.storyboard */,
 			);
 			path = View;
 			sourceTree = "<group>";
@@ -82,8 +99,6 @@
 				440A62022420D556006C74E1 /* Controller */,
 				8F64564F2420AA3B00FBB608 /* AppDelegate.swift */,
 				8F6456512420AA3B00FBB608 /* SceneDelegate.swift */,
-				8F6456532420AA3B00FBB608 /* ViewController.swift */,
-				8F6456552420AA3B00FBB608 /* Main.storyboard */,
 				8F6456582420AA3C00FBB608 /* Assets.xcassets */,
 				8F64565A2420AA3C00FBB608 /* LaunchScreen.storyboard */,
 				8F64565D2420AA3C00FBB608 /* Info.plist */,
@@ -162,9 +177,14 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8F6456542420AA3B00FBB608 /* ViewController.swift in Sources */,
+				440A620A2420E9D9006C74E1 /* HomeViewController.swift in Sources */,
 				8F6456502420AA3B00FBB608 /* AppDelegate.swift in Sources */,
+				44FB6AFE2421C12D0003241D /* SlideInTransition.swift in Sources */,
 				8F6456522420AA3B00FBB608 /* SceneDelegate.swift in Sources */,
+				44FB6B02242202DD0003241D /* RandomViewController.swift in Sources */,
+				44FB6B04242202EF0003241D /* GestureViewController.swift in Sources */,
+				44FB6B002421FB030003241D /* MoveObjectViewController.swift in Sources */,
+				440A62062420DA3A006C74E1 /* MenuViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
