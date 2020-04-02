@@ -16,6 +16,7 @@ class HomeViewController: UIViewController {
     @IBOutlet weak var randomView: UIView!
     @IBOutlet weak var moveObjectView: UIView!
     @IBOutlet weak var gestureView: UIView!
+    @IBOutlet weak var apiView: UIView!
     
     override func viewDidLoad() {
         super.viewDidLoad()
@@ -44,16 +45,19 @@ class HomeViewController: UIViewController {
             randomView.isHidden = false
             moveObjectView.isHidden = true
             gestureView.isHidden = true
+            apiView.isHidden = true
             
         case .home:
            randomView.isHidden = true
            moveObjectView.isHidden = true
            gestureView.isHidden = true
+           apiView.isHidden = true
     
         case .moved:
             randomView.isHidden = true
             moveObjectView.isHidden = false
             gestureView.isHidden = true
+            apiView.isHidden = true
         
             
         case .gestures:
@@ -61,8 +65,14 @@ class HomeViewController: UIViewController {
             randomView.isHidden = true
             moveObjectView.isHidden = true
             gestureView.isHidden = false
+            apiView.isHidden = true
             
-        
+        case .api:
+            randomView.isHidden = true
+            moveObjectView.isHidden = true
+            gestureView.isHidden = true
+            apiView.isHidden = false
+            
         
         default:
             break

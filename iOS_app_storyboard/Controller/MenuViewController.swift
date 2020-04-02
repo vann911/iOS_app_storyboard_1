@@ -14,6 +14,7 @@ enum MenuType: Int{
     case random
     case gestures
     case moved
+    case api
 }
 class MenuViewController: UITableViewController {
 
@@ -26,6 +27,7 @@ class MenuViewController: UITableViewController {
     }
     
     override func tableView(_ tableView: UITableView, didSelectRowAt indexPath: IndexPath) {
+       
         guard  let menuType = MenuType(rawValue: indexPath.row) else { return }
         dismiss(animated: true){ [weak self] in
             print("Dismissing: \(menuType)")
